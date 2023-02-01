@@ -1,15 +1,19 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 
 .topnav {
   overflow: hidden;
   background-color: rgb(13, 11, 11);
+
 }
 
 .backgroundClr {
-  height: 200px;
+  height: 100vh;
+  width: 100vw;
   background-color: rgba(211, 223, 228, 0.618);
   background-image: linear-gradient(to right, rgba(71, 91, 118, 0.226),rgb(169, 200, 210), rgb(143, 151, 142));
 }
@@ -101,7 +105,7 @@ td {
     text-align: center;
     display: inline-block;
     flex-direction: row;
-    background-image: url("./Images/DrillingSimulator.webp");   
+    background-image: url("./Images/DrillingSimulator.jpg");   
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
